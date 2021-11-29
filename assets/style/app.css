@@ -1,0 +1,156 @@
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+}
+.main-content h1 {
+  font-size: 25px;
+}
+.title-content {
+  padding-right: 50px;
+  width: 428px;
+  height: 214px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #1f2c40;
+}
+.column-layout_container {
+  padding-right: 50px;
+}
+
+.column-item {
+  padding-right: 50px;
+}
+
+.line {
+  width: 140px;
+  height: 2px;
+  margin: 10px 107.5px 2px 0px;
+  background-color: #e03116;
+}
+
+.Dbg {
+  width: 273px;
+  height: 33px;
+  margin: 0 0 7px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.19px;
+  text-align: left;
+  color: #1f2c40;
+}
+
+p.Tap {
+  width: 273px;
+  height: 230px;
+  margin: 7px 0 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.14px;
+  text-align: left;
+  color: #666;
+}
+
+.Lrt {
+  width: 273px;
+  height: 89px;
+  margin: 0 0 7px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.19px;
+  text-align: left;
+  color: #1f2c40;
+}
+
+p.Accelerate {
+  width: 273px;
+  height: 245px;
+  margin: 7px 0 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.14px;
+  text-align: left;
+  color: #666;
+}
+
+.Ioe {
+  width: 273px;
+  height: 62px;
+  margin: 0 0 7px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.19px;
+  text-align: left;
+  color: #1f2c40;
+}
+
+p.Stream {
+  width: 273px;
+  height: 210px;
+  margin: 7px 0 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.14px;
+  text-align: left;
+  color: #666;
+}
+
+.Etd {
+  width: 273px;
+  height: 62px;
+  margin: 0 0 7px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.19px;
+  text-align: left;
+  color: #1f2c40;
+}
+
+p.When {
+  height: 249px;
+  margin: 7px 0 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.14px;
+  text-align: left;
+  color: #666;
+}
