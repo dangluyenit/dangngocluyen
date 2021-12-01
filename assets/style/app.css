@@ -1,171 +1,109 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
-body{
+body {
   margin: 0;
+  padding: 0;
 }
 .main-content {
   display: flex;
-  justify-content: space-between;
-  width: 1000px;
-  margin: 10px auto 360px;
-  min-height: 100vh;
-  max-width: 100%;
-  padding: 10px;
+  justify-content: center;
+  width: 100%;
+  margin: 50px auto;
 }
-.main-content h1 {
-  font-size: 25px;
-}
-.title-content {
-  padding-right: 30px;
-  width: 20%;
+.header {
   width: 428px;
-  height: 214px;
-  font-family: Poppins;
-  font-size: 14px;
+  margin-right: 87px;
+  position: relative;
+}
+.header .title {
+  margin-top: 29px;
+  font-size: 30px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
+  font-family: Poppins;
   line-height: 1.33;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.29px;
   text-align: left;
   color: #1f2c40;
 }
-.column-layout_container {
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.column-item {
-  width: 50%;
-  padding: 0, 20px;
-}
-
-.line {
+.header .line {
   width: 140px;
   height: 2px;
   margin: 10px 107.5px 2px 0px;
   background-color: #e03116;
 }
+.column-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 640px;
+}
 
-.Dbg {
-  width: 273px;
-  height: 33px;
-  margin: 0 0 7px;
-  font-family: Poppins;
+.column-item {
+  flex: 0 0 273px;
+  margin-bottom: 40px;
+}
+.column-title {
   font-size: 20px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.17;
+  font-family: Poppins;
   letter-spacing: -0.19px;
+  font-weight: 600;
   text-align: left;
   color: #1f2c40;
 }
-
-p.Tap {
-  width: 273px;
-  height: 230px;
-  margin: 7px 0 0;
+.column-desc {
+  font-size: 15px;
+  margin-top: 7px;
   font-family: Poppins;
-  font-size: 18px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
+  line-height: 24px;
   letter-spacing: -0.14px;
+  font-weight: 300;
   text-align: left;
   color: #666;
 }
 
-.Lrt {
-  width: 273px;
-  height: 89px;
-  margin: 0 0 7px;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: -0.19px;
-  text-align: left;
-  color: #1f2c40;
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    max-width: 600px;
+    padding: 15px;
+  }
+
+  .header {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .column-layout {
+    width: 100%;
+  }
+
+  .column-item {
+    flex: 0 0 100%;
+    margin-bottom: 50px;
+  }
 }
 
-p.Accelerate {
-  width: 273px;
-  height: 245px;
-  margin: 7px 0 0;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: -0.14px;
-  text-align: left;
-  color: #666;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+    max-width: 900px;
+  }
+
+  .header {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-left: 20px;
+  }
+
+  .column-layout {
+    width: 100%;
+    margin-left: -40px;
+  }
+
+  .column-item {
+    flex: 0 0 calc(50% - 55px);
+    margin-left: 55px;
+  }
 }
-
-.Ioe {
-  width: 273px;
-  height: 62px;
-  margin: 0 0 7px;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: -0.19px;
-  text-align: left;
-  color: #1f2c40;
-}
-
-p.Stream {
-  width: 273px;
-  height: 210px;
-  margin: 7px 0 0;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: -0.14px;
-  text-align: left;
-  color: #666;
-}
-
-.Etd {
-  width: 273px;
-  height: 62px;
-  margin: 0 0 7px;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: -0.19px;
-  text-align: left;
-  color: #1f2c40;
-}
-
-p.When {
-  height: 249px;
-  margin: 7px 0 0;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: -0.14px;
-  text-align: left;
-  color: #666;
-}
-
-
